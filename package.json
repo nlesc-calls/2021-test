@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nlesc-calls/2021-test#readme",
   "dependencies": {
-    "@iomeg/zenodo-upload": "^0.5.1"
+    "@iomeg/zenodo-upload": "^0.5.1",
+    "markdown-link-check": "^3.8.7"
   }
 }
