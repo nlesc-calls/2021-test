@@ -15,6 +15,7 @@
 This project uses the following GitHub Actions:
 
 1. https://github.com/marketplace/actions/cffconvert
+1. https://github.com/marketplace/actions/markdown-link-check
 1. https://github.com/marketplace/actions/markdown-to-pdf-and-html
 
 ## Artifacts
