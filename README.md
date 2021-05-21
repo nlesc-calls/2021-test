@@ -9,3 +9,10 @@
 
 
 For artifacts, go [here](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml).
+
+## Actions
+
+This project uses the following GitHub Actions:
+
+1. https://github.com/marketplace/actions/cffconvert
+1. https://github.com/marketplace/actions/markdown-to-pdf-and-html
