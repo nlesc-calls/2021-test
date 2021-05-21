@@ -20,7 +20,9 @@ This project uses the following GitHub Actions:
 
 ## Artifacts
 
-For artifacts, go [here](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml), and click on the topmost build. On the bottom of the next page, there should be an item named `artifacts`, where you can download a zip file with the generated `2021-test.pdf` in it.
+For artifacts, go [here](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml), and click on
+the topmost build. On the bottom of the next page, there should be an item named `artifacts`, where you can download a
+zip file with the generated `2021-test.pdf` in it.
 
 ## Updating the version
 
@@ -46,4 +48,6 @@ bumpversion patch
 
 ## Publishing
 
-This repository has been set up to automatically publish the contents of [`src/2021-test.md`](src/2021-test.md) as a pdf file on Zenodo Sandbox whenever a release is published on GitHub. For more details, see the workflow file [`.github/workflows/publish.yml`](.github/workflows/publish.yml).
+Publish the contents of [`src/2021-test.md`](src/2021-test.md) as a pdf file on Zenodo Sandbox using the manual workflow
+trigger name `publish`. For more details, see the workflow file
+[`.github/workflows/publish.yml`](.github/workflows/publish.yml).
