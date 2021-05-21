@@ -20,9 +20,4 @@ jobs:
           build_html: false
           theme: theme.css
 
-      - uses: actions/upload-artifact@v1
-        with:
-          name: artifacts
-          path: 2021-test.pdf
-
-      - run: "echo 'TODO upload to Zenodo using https://github.com/iomega/zenodo-upload'"
+      - run: "echo 'TODO upload 2021-test.pdf to Zenodo using https://github.com/iomega/zenodo-upload'"
