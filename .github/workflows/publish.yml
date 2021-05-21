@@ -20,4 +20,5 @@ jobs:
           build_html: false
           theme: theme.css
 
-      - run: "echo 'TODO upload 2021-test.pdf to Zenodo using https://github.com/iomega/zenodo-upload'"
+      - name: Zenodo upload (placeholder)
+        run: "echo 'TODO upload 2021-test.pdf to Zenodo using https://github.com/iomega/zenodo-upload'"
