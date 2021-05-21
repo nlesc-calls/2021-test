@@ -21,7 +21,7 @@ For artifacts, go [here](https://github.com/nlesc-calls/2021-test/actions/workfl
 
 ## Updating the version
 
-We use `bump2version` from PyPI
+We use [`bump2version`](https://pypi.org/project/bump2version/) from PyPI.
 
 ```
 # make a virtual environment
@@ -36,5 +36,7 @@ pip install --upgrade pip wheel setuptools
 # install bump2version
 pip install -r requirements.txt
 
+# bumpversion major|minor|patch, e.g.
+bumpversion patch
 
 ```
