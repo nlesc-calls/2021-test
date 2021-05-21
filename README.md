@@ -41,3 +41,7 @@ pip install -r requirements.txt
 bumpversion patch
 
 ```
+
+## Publishing
+
+This repository has been set up to automatically publish the contents of [`src/2021-test.md`](src/2021-test.md) as a pdf file on Zenodo Sandbox whenever a release is published on GitHub. For more details, see the workflow file [`.github/workflows/publish.yml`](.github/workflows/publish.yml).
