@@ -21,6 +21,7 @@ jobs:
           # Default is true, can set to false to only get PDF files
           build_html: false
       - uses: actions/upload-artifact@v1
+        run: mv README.md 2021-test.pdf
         with:
-          name: docs
-          path: .
+          name: artifacts
+          path: 2021-test.md
