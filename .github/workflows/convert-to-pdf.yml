@@ -5,7 +5,7 @@ name: convert-to-pdf
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   convert:
