@@ -1,0 +1,22 @@
+{
+  "name": "2021-test",
+  "version": "1.0.0",
+  "description": "source files for rules and regulation document pertaining to the call for proposals named 2021-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlesc-calls/2021-test.git"
+  },
+  "author": "Jurriaan H. Spaaks",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/nlesc-calls/2021-test/issues"
+  },
+  "homepage": "https://github.com/nlesc-calls/2021-test#readme",
+  "dependencies": {
+    "@iomeg/zenodo-upload": "^0.5.1"
+  }
+}
