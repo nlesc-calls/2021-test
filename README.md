@@ -16,7 +16,7 @@ Promote certain things
 - stage 3
 - stage 4
 
-## Policy regarding Interllectual property
+## Policy regarding Intellectual property
 
 Everything be Apache-2.0 y'all
 
