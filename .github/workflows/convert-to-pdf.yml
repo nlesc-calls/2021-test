@@ -22,8 +22,6 @@ jobs:
           build_html: false
           theme: theme.css
 
-      - run: mv README.pdf 2021-test.pdf
-
       - uses: actions/upload-artifact@v1
         with:
           name: artifacts
