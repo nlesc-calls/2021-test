@@ -48,6 +48,9 @@ bumpversion patch
 
 ## Publishing
 
-Publish the contents of [`src/2021-test.md`](src/2021-test.md) as a pdf file on Zenodo Sandbox using the manual workflow
-trigger name `publish`. For more details, see the workflow file
-[`.github/workflows/publish.yml`](.github/workflows/publish.yml).
+Publish the contents of [`src/2021-test.md`](src/2021-test.md) as a pdf file on Zenodo Sandbox using the [manual workflow
+trigger named `publish`](https://github.com/nlesc-calls/2021-test/actions/workflows/publish.yml). Click `run` to publish.
+
+![image](https://user-images.githubusercontent.com/4558105/119168638-64c29580-ba61-11eb-8121-d511fc109c30.png)
+
+For more details, see the workflow file [`.github/workflows/publish.yml`](.github/workflows/publish.yml).
