@@ -1,18 +1,13 @@
-name: convert-to-pdf
-
+name: publish
 on:
-  push:
-    branches:
-      - main
-    # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
-    paths:
-      - 'src/**.md'
+  release:
+    types: [published]
   workflow_dispatch:
     # for manual trigger
 
 jobs:
-  convert:
-    name: convert-to-pdf
+  publish:
+    name: publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,3 +24,5 @@ jobs:
         with:
           name: artifacts
           path: 2021-test.pdf
+
+      - run: echo "TODO: upload to Zenodo using https://github.com/iomega/zenodo-upload"
