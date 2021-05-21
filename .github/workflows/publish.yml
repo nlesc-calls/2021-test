@@ -22,4 +22,4 @@ jobs:
         shell: bash
         env:
           ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
-        run: "npx --package @iomeg/zenodo-upload zenodo_upload --sandbox --no-checksum 831618 2021-test.pdf 1.5.0 \"$ZENODO_ACCESS_TOKEN\""
+        run: "npx --package @iomeg/zenodo-upload zenodo_upload --sandbox --no-checksum 831618 2021-test.pdf 1.6.0 \"$ZENODO_ACCESS_TOKEN\""
