@@ -21,5 +21,4 @@ jobs:
           theme: theme.css
 
       - name: Zenodo sandbox upload
-        run: "npx --package @iomeg/zenodo-upload zenodo_upload --sandbox --no-checksum 831247 2021-test.pdf 1.1.0 ${ZENODO_ACCESS_TOKEN}"
-"
+        run: "npx --package @iomeg/zenodo-upload zenodo_upload --sandbox --no-checksum 831247 2021-test.pdf 1.1.0 $ZENODO_ACCESS_TOKEN"
