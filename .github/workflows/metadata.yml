@@ -6,6 +6,8 @@ on:
     paths:
       - CITATION.cff
       - .zenodo.json
+  workflow_dispatch:
+    # for manual trigger
 
 jobs:
   verify:
