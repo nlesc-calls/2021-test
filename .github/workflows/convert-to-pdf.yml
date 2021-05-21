@@ -20,8 +20,10 @@ jobs:
           images_dir: .
           # Default is true, can set to false to only get PDF files
           build_html: false
+
+      - run: mv README.pdf 2021-test.pdf
+
       - uses: actions/upload-artifact@v1
-        run: mv README.md 2021-test.pdf
         with:
           name: artifacts
-          path: 2021-test.md
+          path: 2021-test.pdf
