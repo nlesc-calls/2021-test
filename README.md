@@ -18,3 +18,23 @@ This project uses the following GitHub Actions:
 ## Artifacts
 
 For artifacts, go [here](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml).
+
+## Updating the version
+
+We use `bump2version` from PyPI
+
+```
+# make a virtual environment
+python3 -m venv env
+
+# activate the environment
+source env/bin/activate
+
+# upgrade pip wheel setuptools
+pip install --upgrade pip wheel setuptools
+
+# install bump2version
+pip install -r requirements.txt
+
+
+```
