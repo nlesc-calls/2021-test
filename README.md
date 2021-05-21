@@ -19,7 +19,7 @@ This project uses the following GitHub Actions:
 
 ## Artifacts
 
-For artifacts, go [here](https://github.com/nlesc-callz/2021-test/actions/workflows/convert-to-pdf.yml), and click on the topmost build. On the bottom of the next page, there should be an item named `artifacts`, where you can download a zip file with the generated `2021-test.pdf` in it.
+For artifacts, go [here](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml), and click on the topmost build. On the bottom of the next page, there should be an item named `artifacts`, where you can download a zip file with the generated `2021-test.pdf` in it.
 
 ## Updating the version
 
