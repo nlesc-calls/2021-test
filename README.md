@@ -6,7 +6,7 @@
 | ---            | --- |
 | metadata       | [![metadata](https://github.com/nlesc-calls/2021-test/actions/workflows/metadata.yml/badge.svg)](https://github.com/nlesc-calls/2021-test/actions/workflows/metadata.yml) |
 | convert-to-pdf | [![convert-to-pdf](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml/badge.svg)](https://github.com/nlesc-calls/2021-test/actions/workflows/convert-to-pdf.yml) |
-| Zenodo sandbox | [![DOI](https://sandbox.zenodo.org/badge/DOI/10.5072/zenodo.831247.svg)](https://doi.org/10.5072/zenodo.831247) |
+| Zenodo sandbox | [![DOI](https://sandbox.zenodo.org/badge/DOI/10.5072/zenodo.831247.svg)](https://sandbox.zenodo.org/record/831247) |
 
 ## Actions
 
