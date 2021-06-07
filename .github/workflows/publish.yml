@@ -20,7 +20,9 @@ jobs:
 
       - name: Install zenodraft
         shell: bash
-        run: sudo npm install -g git+https://github.com/jspaaks/zenodraft
+        run: |
+          npm install git+https://github.com/jspaaks/zenodraft
+          export PATH=${PATH}:$(pwd)/node_modules/.bin
 
       - name: Upload to Zenodo Sandbox
         shell: bash
